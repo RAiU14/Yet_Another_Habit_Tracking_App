@@ -1,0 +1,23 @@
+# Core framework
+fastapi==0.115.5
+uvicorn[standard]==0.32.1
+
+# Database
+SQLAlchemy==2.0.36
+asyncpg==0.30.0
+psycopg[binary]==3.2.3
+
+# Migrations
+alembic==1.14.0
+
+# Auth & security
+python-jose==3.3.0
+passlib[bcrypt]==1.7.4
+
+# Environment & utilities
+python-dotenv==1.0.1
+pydantic==2.10.2
+
+# Optional (future use, but safe to include now)
+redis==5.2.0
+httpx==0.27.2
